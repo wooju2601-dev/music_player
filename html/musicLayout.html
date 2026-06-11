@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Player</title>
+
+  <link rel="stylesheet" href="./../css/musiclayout.css" />
+
+  <script src="./../js/musicLayoutAjaxJSON.js" defer></script>
+</head>
+
+<body onload="mInit()">
+  <div id="wrapper">
+    <div class="music_box">
+
+      
+      <div class="title">
+        <div class="inner_title">
+          <p><strong id="songTitle">Golden</strong></p>
+        </div>
+
+        <div class="inner_title2">
+
+          <div id="music_loop" class="tooltip">
+            <img src="./../img/free-icon-repeat-11762458.png">
+            <span class="tooltiptext">반복재생</span>
+          </div>
+
+          <div id="list_chk" class="tooltip">
+       
+            <img src="./../img/playlist.png"
+                 width="50px"
+                 class="list"
+                 id="choice_image">
+            <span class="tooltiptext">List</span>
+
+            <div id="songs">
+              <select id="songlist" size="9"></select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="title01">
+        <p id="artistName">Suno1</p>
+      </div>
+
+
+      <div class="image">
+        <img class="music" src=  "./../img/wave.png" alt="suno1" id="img_change">
+      </div>
+
+       <input type="range" id="progressBar" value="0" min="0" max="100" step="1"><br>
+     <input type="text" id="currTime" class="curTime" disabled>
+       <input type="text" id="totalTime" class="totTime" disabled><br> 
+<!--
+       <input type="range" id="musicbar" min="0" max="100"><br>
+      
+    -->
+       <div class="under">
+        <div class="buttons">
+          <img src="./../img/end_files/254428 - 복사본.png" class="inner img_btn">
+        </div>
+
+        <div class="buttons">
+          <img src="./../img/end_files/151858 - 복사본.png" class="inner img_btn">
+        </div>
+
+        <div class="buttons">
+          <img src="./../img/end_files/5529954.png"
+               class="inner img_btn"
+               id="play"
+             >
+        </div>
+
+        <div class="buttons">
+          <img src="./../img/end_files/151858.png" class="inner img_btn">
+        </div>
+
+        <div class="buttons">
+          <img src="./../img/end_files/254428.png" class="inner img_btn">
+        </div>
+
+        <div class="buttons">
+          <img src="./../img/free-icon-end-18407675.png" class="inner img_btn">
+        </div>
+      </div>
+
+
+ 
+    <audio id="audio_ele"></audio><!-- controls>
+      <source id="audio_src" src="" type="audio/mpeg">
+    -->
+
+      </div>
+
+  </div>
+</body>
+</html>

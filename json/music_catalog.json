@@ -1,0 +1,30 @@
+{
+  "CATALOG": {
+    "CD": [
+      {
+        "TITLE": "Like the Shine",
+        "ARTIST": "Suno1",
+        "IMG": "./../img/wave.png",
+        "MUSIC": "./../music/햇살처럼 (Like the Sunlight).wav"
+      },
+      {
+        "TITLE": "Light in My Eyes",
+        "ARTIST": "Suno2",
+        "IMG": "./../img/star.png",
+        "MUSIC": "./../music/Light in My Eyes.wav"
+      },
+      {
+        "TITLE": "Lost Signal",
+        "ARTIST": "Suno3",
+        "IMG": "./../img/summer.png",
+        "MUSIC": "./../music/Lost Signal (Vocals).mp3"
+      },
+        {
+        "TITLE": "Under the Silver",
+        "ARTIST": "Suno4",
+        "IMG": "./../img/winter.png",
+        "MUSIC": "./../music/winterday.mp3"
+      }
+    ]
+  }
+}

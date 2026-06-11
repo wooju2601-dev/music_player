@@ -1,0 +1,182 @@
+#wrapper {
+  width: 1340px;
+  margin: auto;
+}
+
+.music_box {
+  height: 700px;
+  padding: 20px;
+  width: 600px;
+  border: 1px solid rgba(21, 26, 21, 0.1);
+  margin: auto;
+  border-radius: 50px;
+  background-color: rgba(250, 250, 250, 0.95);
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+.inner_title {
+  width: 300px;
+}
+
+.inner_title2 {
+  display: flex;
+  gap: 15px;
+}
+
+.title01 {
+  font-size: 20px;
+  margin-left:30px;
+  margin-top:-30px;
+}
+
+.image {
+  height: 400px;
+  text-align: center;
+}
+
+.music {
+  width: 350px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.music:hover {
+  box-shadow: 0 0 5px rgba(99, 157, 67, 0.5);
+}
+
+.under {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 30px 20px;
+}
+
+.inner {
+  width: 40px;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.list {
+  cursor: pointer;
+}
+
+
+#songs {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 0;
+}
+option{
+  height:40px;
+}
+
+select, option {
+  width: 150px;
+  background-color: rgba(167, 216, 167,0.9);
+  font-family: BMJUA;
+}
+
+.tooltip {
+  position: relative;
+  cursor: pointer;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  top: 55px;
+  left: -40px;
+  z-index: 10;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+#music_loop img{
+  width:55px;
+  height:55px;
+  margin-top:-5px;
+}
+#list_chk {
+  position: relative;
+}
+
+
+#progressBar {
+  -webkit-appearance:none;
+  appearance: none;
+  width: 72%;
+  height: 6px;
+  background-color:  rgba(99, 157, 67, 0.5);
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin-left:80px;
+  
+}
+
+
+#progressBar::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(99, 157, 67, 1);
+  border-radius: 50%;
+}
+
+#progressBar::-moz-range-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color:rgba(167, 216, 167, 1);
+  border-radius: 50%;
+
+}
+
+.time_box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+  font-size: 17px;
+  color: #555;
+}
+
+.time_box span {
+  user-select: none;
+}
+
+.curTime{
+  color: rgba(67, 112, 43, 0.5);
+  border:none;
+  margin-left:75px;
+  font-weight: 15px;
+  font-size: 20px;
+}
+
+.totTime{
+  border:none;
+  color: rgba(67, 112, 43, 0.5);
+  text-align:right;
+  font-size: 20px;
+  font-weight: 15px;
+  width:186px;
+}

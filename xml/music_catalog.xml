@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+  <CD>
+    <TITLE>Like the Shine</TITLE>
+    <ARTIST>Suno1</ARTIST>
+    <IMG>./../img/wave.png</IMG>
+    <MUSIC>./../music/햇살처럼 (Like the Sunlight).wav</MUSIC>
+   </CD>
+    <CD>
+    <TITLE>Light in My Eyes</TITLE>
+    <ARTIST>Suno2</ARTIST>
+    <IMG>./../img/star.png</IMG>
+    <MUSIC>./../music/Light in My Eyes.wav</MUSIC>
+   </CD>
+    <CD>
+    <TITLE>Lost Signal</TITLE>
+    <ARTIST>Suno3</ARTIST>
+    <IMG>./../img/summer.png</IMG>
+    <MUSIC>./../music/Lost Signal (Vocals).mp3</MUSIC>
+   </CD>
+    <CD>
+    <TITLE>Under the silver</TITLE>
+    <ARTIST>Suno4</ARTIST>
+    <IMG>./../img/winter.png</IMG>
+    <MUSIC>Columbia</MUSIC>
+   </CD>
+  
+</CATALOG>
